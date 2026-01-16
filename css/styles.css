@@ -161,8 +161,7 @@ ul {
 .nav-link.studio::after {
   content: "";
   position: absolute;
-  bottom: -1%;
-  /* left: 0; */
+  bottom: -1px;
   display: block;
   border-radius: 2px;
   width: 100%;
@@ -933,7 +932,9 @@ ul {
 
 .modal-checkbox-text a {
   color: var(--iris);
+  line-height: 1.33;
   text-decoration: underline;
+  text-decoration-skip-ink: none;
 }
 .modal-button {
   font-family: var(--font-family);
